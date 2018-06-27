@@ -1,4 +1,4 @@
-package ro.vladfernoaga.telegram_chatbot_starter.config;
+package config;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package ro.vladfernoaga.telegram_chatbot_starter.config;
+package config;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,10 +10,10 @@ import org.springframework.context.annotation.Configuration;
 
 import com.pengrad.telegrambot.TelegramBot;
 
-import ro.vladfernoaga.telegram_chatbot_starter.handler.SimpleUpdateHandler;
+import handler.SimpleUpdateHandler;
 
 @Configuration
-@ComponentScan({"ro.vladfernoaga.telegram_chatbot_starter"})
+@ComponentScan({"chatbot_starter"})
 public class BeanConfig {
 	
 	/** The Constant LOGGER. */

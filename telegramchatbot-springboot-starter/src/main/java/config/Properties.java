@@ -1,4 +1,4 @@
-package ro.vladfernoaga.telegram_chatbot_starter.config;
+package config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
